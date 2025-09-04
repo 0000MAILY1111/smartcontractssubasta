@@ -1,0 +1,62 @@
+
+# ---- Node.js dependencies ----
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ---- Environment variables ----
+.env
+.env.*
+.env.example   
+
+# ---- Build outputs ----
+dist/
+out/
+build/
+cache/
+artifacts/
+
+# ---- Hardhat specific ----
+coverage/
+coverage.json
+typechain-types/
+deployments/
+
+# ---- Logs ----
+*.log
+logs/
+debug.log
+*.pid
+*.seed
+*.pid.lock
+
+# ---- OS / Editor junk ----
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ---- Docker ----
+*.pid
+*.seed
+*.pid.lock
+.docker/
+docker-compose.override.yml
+
+# ---- Misc ----
+*.tgz
+*.tar.gz
+*.zip
+*.bak
+*.tmp
+*.orig
+*.rej
